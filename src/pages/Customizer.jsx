@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Customizer = () => {
   return (
@@ -6,4 +6,4 @@ const Customizer = () => {
   )
 }
 
-export default Customizer
+export default Customizer;

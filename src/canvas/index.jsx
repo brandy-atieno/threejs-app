@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Canvas = () => {
   return (
@@ -6,4 +5,4 @@ const Canvas = () => {
   )
 }
 
-export default Canvas
+export default Canvas;
