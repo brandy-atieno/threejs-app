@@ -2,7 +2,7 @@ import React from 'react';
 import state from '../store';
 import {useSnapshot} from 'valtio';
 
-const CustomButtton = ({type,title,handleClick,customStyles}) => {
+const CustomButton = ({type,title,handleClick,customStyles}) => {
   const snap =useSnapshot(state);
 
   const generateStyle=(type)=>{
@@ -20,4 +20,4 @@ const CustomButtton = ({type,title,handleClick,customStyles}) => {
   )
 }
 
-export default CustomButtton;
+export default CustomButton;

@@ -17,13 +17,13 @@ const Home = () => {
     <AnimatePresence>
       {snap.intro && (
         <motion.section className="home" {...slideAnimation('left')}>
-          {/* <motion.header {...slideAnimation("down")}>
-            <img 
+          <motion.header {...slideAnimation("down")}>
+            {/* <img 
               src='./threejs.png'
               alt="logo"
-              className="w-8 h-8 object-contain"
-            />
-          </motion.header> */}
+              className="w-1 h-1 object-contain"
+            /> */}
+          </motion.header>
 
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
